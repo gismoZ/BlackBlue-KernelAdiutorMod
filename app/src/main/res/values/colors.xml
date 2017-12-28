@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#2a7289</color>
-    <color name="colorPrimaryDark">#1d5060</color>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
 
     <color name="textcolor_light">#8a000000</color>
     <color name="textcolor_dark">#b3ffffff</color>
@@ -14,7 +14,7 @@
     <color name="red_accent">#ef5350</color>
     <color name="pink_accent">#ff80aa</color>
     <color name="purple_accent">#ab47Bc</color>
-    <color name="blue_accent">#42a5f5</color>
+    <color name="blue_accent">#004A7F</color>
     <color name="green_accent">#66bb6a</color>
     <color name="orange_accent">#ffa726</color>
     <color name="brown_accent">#8d6e63</color>
