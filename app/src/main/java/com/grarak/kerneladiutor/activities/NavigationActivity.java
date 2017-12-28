@@ -200,7 +200,7 @@ public class NavigationActivity extends BaseActivity
             sFragments.add(new NavigationActivity.NavigationFragment(R.string.screen, new ScreenFragment(), R.drawable.ic_display));
         }
         if (Wake.supported()) {
-            sFragments.add(new NavigationActivity.NavigationFragment(R.string.wake, new WakeFragment(), R.drawable.ic_unlock));
+            sFragments.add(new NavigationActivity.NavigationFragment(R.string.gestures, new WakeFragment(), R.drawable.ic_gesture));
         }
         if (Sound.supported()) {
             sFragments.add(new NavigationActivity.NavigationFragment(R.string.sound, new SoundFragment(), R.drawable.ic_music));

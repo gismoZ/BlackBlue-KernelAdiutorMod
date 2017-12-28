@@ -477,6 +477,7 @@
     <string name="glove_mode_summary">Enabling this will let you use your phone even while wearing gloves.</string>
 
     <!-- Wake -->
+    <string name="gestures">Gestures</string>
     <string name="dt2w">DoubleTap2Wake</string>
     <string name="dt2w_summary">Wake up your device by double tapping the screen.</string>
     <string name="center">Center</string>
