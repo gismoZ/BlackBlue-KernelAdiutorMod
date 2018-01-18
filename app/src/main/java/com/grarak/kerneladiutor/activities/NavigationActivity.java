@@ -218,9 +218,9 @@ public class NavigationActivity extends BaseActivity
         if (LMK.supported()) {
             sFragments.add(new NavigationActivity.NavigationFragment(R.string.lmk, new LMKFragment(), R.drawable.ic_stackoverflow));
         }
-        if (Wakelock.supported()) {
-            sFragments.add(new NavigationActivity.NavigationFragment(R.string.wakelock_nav, new WakelockFragment(), R.drawable.ic_unlock));
-        }
+        /*if (Wakelock.supported()) {
+            //sFragments.add(new NavigationActivity.NavigationFragment(R.string.wakelock_nav, new WakelockFragment(), R.drawable.ic_unlock));
+        }*/
         if (BoefflaWakelock.supported()) {
             sFragments.add(new NavigationActivity.NavigationFragment(R.string.boeffla_wakelock, new BoefflaWakelockFragment(), R.drawable.ic_unlock));
         }
